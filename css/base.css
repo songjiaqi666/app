@@ -1,0 +1,424 @@
+/*----------------公共样式-------------------*/
+/* 清除浮动 */
+.clearfix:after {
+  content: "200B";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.hide {
+  display: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*/margin值*/
+.mar-b-110 {
+  margin-bottom: 1.1rem;
+}
+.mar-t-5 {
+  margin-top: 0.05rem;
+}
+/*/背景值*/
+.bg-f7 {
+  background-color: #F7F7F7;
+}
+/*二级页面头部位置*/
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 6.6rem;
+  height: 1.1rem;
+  background-color: #19adb9;
+  line-height: 1.1rem;
+  color: #fff;
+  padding: 0 0.3rem;
+  /*//作品盒子列表页*/
+  /*//作品内容页*/
+  /*//作品内容页*/
+  /*//搜索页面*/
+  /*//社区页面*/
+}
+.head h3 {
+  float: left;
+  font-size: 0.4rem;
+  font-weight: normal;
+}
+.head h3 i {
+  display: block;
+  float: left;
+  margin-right: 0.26rem;
+  width: 0.25rem;
+  height: 0.4rem;
+  background: url(../images/hd_06.png);
+  background-size: cover;
+  margin-top: 0.35rem;
+}
+.head .write {
+  float: right;
+  width: 0.37rem;
+  height: 0.37rem;
+  margin-top: 0.37rem;
+  background: #000000;
+  background: url(../images/hd_03.png);
+  background-size: cover;
+}
+.head .searchIcon {
+  float: right;
+  width: 0.44rem;
+  height: 0.44rem;
+  margin-top: 0.36rem;
+}
+.head .searchIcon i {
+  width: 0.44rem;
+  height: 0.44rem;
+  display: block;
+  font-size: 0.42rem;
+  color: #fff;
+}
+.head .thumbs {
+  float: right;
+  width: 0.44rem;
+  height: 0.44rem;
+  margin-top: 0.36rem;
+}
+.head .thumbs i {
+  display: block;
+  font-size: 0.42rem;
+  color: #fff;
+}
+.head .dubThumbs {
+  float: right;
+  width: 1.2rem;
+  height: 0.44rem;
+  margin-top: 0.36rem;
+}
+.head .dubThumbs i {
+  display: block;
+  float: left;
+  font-size: 0.42rem;
+  color: #fff;
+}
+.head .dubThumbs i:nth-child(1) {
+  margin-right: 0.35rem;
+}
+.head .dubThumbs i:nth-child(2) {
+  color: rgba(255, 255, 255, 0.7);
+}
+.head form {
+  padding: 0.14rem 0.22rem;
+  width: 6.16rem;
+  height: 0.44rem;
+  line-break: 0.72rem;
+  margin: 0.2rem auto 0 auto;
+  border-radius: 0.1rem;
+  background-color: #fff;
+}
+.head form button {
+  float: left;
+  margin-right: 0.25rem;
+}
+.head form button i {
+  font-size: 0.38rem;
+  width: 0.44rem;
+  height: 0.44rem;
+  color: #606060;
+}
+.head form .text {
+  float: left;
+  width: 5.4rem;
+  height: 0.44rem;
+}
+/*//content内容页面*/
+.content {
+  overflow: auto;
+  margin-top: 1.1rem;
+  /*//内容页 公用图标*/
+  /*//空白无内容显示页面*/
+}
+.content .dizhiIcon {
+  float: left;
+  display: block;
+  width: 0.22rem;
+  height: 0.26rem;
+  margin-right: 0.13rem;
+  background: url(../images/hd_10.png);
+  background-size: cover;
+}
+.content .timeIcon {
+  float: left;
+  display: block;
+  width: 0.24rem;
+  height: 0.24rem;
+  margin-right: 0.13rem;
+  background: url(../images/hd_13.png);
+  background-size: cover;
+  margin-top: 0.04rem;
+}
+.content .gap {
+  text-align: center;
+}
+.content .gap img {
+  width: 4.5rem;
+  margin: 1.1rem auto 0 auto;
+}
+.content .gap p {
+  font-size: 0.34rem;
+  color: #606060;
+  margin-top: 0.45rem;
+}
+/*//弹窗可共用--------------------------*/
+/*//内容页分享菜单*/
+.share {
+  position: fixed;
+  top: 3.86rem;
+  left: 0.92rem;
+  z-index: 19;
+  width: 5.36rem;
+  height: 5.06rem;
+  background-color: #fff;
+  border-radius: 0.24rem;
+}
+.share .shareUp {
+  position: relative;
+  padding-top: 0.68rem;
+  text-align: center;
+}
+.share .shareUp h3 {
+  color: #303030;
+  font-size: 0.4rem;
+}
+.share .shareUp ul {
+  margin-top: 0.68rem;
+  display: flex;
+  justify-content: space-around;
+  height: 1.55rem;
+}
+.share .shareUp ul li {
+  line-height: 0.4rem;
+  font-size: 0.2rem;
+  color: #606060;
+}
+.share .shareUp ul li i {
+  display: block;
+  width: 0.82rem;
+  height: 0.82rem;
+  overflow: hidden;
+}
+.share .shareUp span {
+  font-size: 0.12rem;
+  color: #bfbfbf;
+  text-align: center;
+  display: block;
+  margin: 0.24rem auto 0.5rem auto;
+}
+.share button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.85rem;
+  line-height: 0.85rem;
+  text-align: center;
+  color: #fff;
+  background: #19adb9;
+  border-radius: 0 0 0.24rem 0.24rem;
+  cursor: pointer;
+  font-size: 0.26rem;
+}
+/*//CGTop 内容页 播放提示 // 确认退出*/
+.hint {
+  position: fixed;
+  top: 3.86rem;
+  left: 0.92rem;
+  z-index: 10;
+  width: 5.36rem;
+  height: 3.85rem;
+  background-color: #fff;
+  border-radius: 0.24rem;
+  text-align: center;
+}
+.hint h3 {
+  font-size: 0.34rem;
+  line-height: 2.9rem;
+  height: 2.9rem;
+  color: #606060;
+}
+.hint .btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  border-radius: 0 0 0.24rem 0.24rem;
+  cursor: pointer;
+  font-size: 0.26rem;
+  border-top: 1px solid #606060;
+  color: #303030;
+}
+.hint .btn button {
+  width: 50%;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  font-size: 0.34rem;
+  margin: 0.23rem 0;
+}
+.hint .btn button:nth-of-type(1) {
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid #c7c7c7;
+}
+.hint .btn button:nth-of-type(2) {
+  float: right;
+}
+/*/评价窗口弹窗》火星助手*/
+.star {
+  position: fixed;
+  top: 3.53rem;
+  left: 0.92rem;
+  z-index: 5;
+  width: 5.36rem;
+  height: 3.8rem;
+  background-color: #fff;
+  border-radius: 0.24rem;
+}
+.star .starUp {
+  position: relative;
+  padding-top: 0.94rem;
+}
+.star .starUp ul {
+  display: flex;
+  justify-content: space-around;
+  height: 0.9rem;
+}
+.star .starUp span {
+  font-size: 0.12rem;
+  color: #bfbfbf;
+  text-align: center;
+  display: block;
+  margin: 0.24rem auto 0.5rem auto;
+}
+.star button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.85rem;
+  line-height: 0.85rem;
+  text-align: center;
+  color: #fff;
+  background: #19adb9;
+  border-radius: 0 0 0.24rem 0.24rem;
+  cursor: pointer;
+  font-size: 0.26rem;
+}
+/*//修改头像  弹窗*/
+.revision {
+  position: absolute;
+  top: 3.86rem;
+  left: 0.92rem;
+  z-index: 10;
+  width: 4.15rem;
+  height: 3rem;
+  background-color: #fff;
+  border-radius: 0.17rem;
+  border: 1px solid #8b8f97;
+  padding: 0 0.6rem;
+}
+.revision h3 {
+  font-size: 0.34rem;
+  line-height: 0.7rem;
+  margin-top: 0.2rem;
+}
+.revision p {
+  line-height: 0.6rem;
+  height: 0.6rem;
+  margin-top: 0.3rem;
+  color: #606060;
+  font-size: 0.32rem;
+}
+.revision p i {
+  display: block;
+  float: left;
+  margin-right: 0.25rem;
+  color: #404040;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+}
+/*模态层*/
+.modal {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/*footer-----------------------------------------------------*/
+footer {
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.06rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #969a9c;
+  box-shadow: 0 -2px 2px 2px rgba(101, 101, 101, 0.1);
+}
+footer ul {
+  margin-top: 0.08rem;
+}
+footer ul .ac .home {
+  background: url(../images/home-dot.png);
+  background-size: cover;
+}
+footer ul .ac .helper {
+  background: url(../images/helper-dot.png);
+  background-size: cover;
+}
+footer ul .ac .sq {
+  background: url(../images/sq-dot.png);
+  background-size: cover;
+}
+footer ul li {
+  float: left;
+  width: 33.33%;
+  font-size: 0.2rem;
+  color: #1d3462;
+  line-height: 0.28rem;
+  text-align: center;
+}
+footer ul li a {
+  color: #030303;
+  line-height: 0.34rem;
+}
+footer ul li i {
+  display: block;
+  width: 0.64rem;
+  height: 0.56rem;
+  margin: 0 auto;
+}
+footer ul .home {
+  background: url(../images/home.png);
+  background-size: cover;
+}
+footer ul .helper {
+  background: url(../images/helper.png);
+  background-size: cover;
+}
+footer ul .sq {
+  background: url(../images/sq.png);
+  background-size: cover;
+}

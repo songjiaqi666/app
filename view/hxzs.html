@@ -1,0 +1,60 @@
+
+<!--头部区域-->
+<div class='head' >
+	<h3 id="goBack"><a><i></i></a>火星助手</h3>
+</div>
+<!--内容区域-->
+<div class="content">
+	
+	<!--评价窗口-->
+	<div class="message">
+		<form>
+			<textarea id="textarea"></textarea>
+			<button type="button" id="messBtn"><i></i><span>快来帮帮我</span><i></i></button>
+		</form>
+	</div>
+	<!--留言列表-->
+	<div class="messList">
+		<div class="tabItem hide">
+			<p>还没有向火星发出任何求助信号哦~</p>
+		</div>
+		<!--有内容显示样式-->
+		<div class="tabItem">
+			<div class="row">
+				<div class="col"><h3>提交时间</h3></div>
+				<div class="col"><h3>处理状态</h3></div>
+				<div class="col"><h3>评价状态</h3></div>
+			</div>
+			<div id="rowBox">
+				<!--信息列表-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="template" style="display:none">
+	<!--模态层-->
+	<div class="modal hide"></div>
+	<!--评价等级-->
+	<div class="star hide">
+		<div class="starUp">
+			<ul>
+				<li class="fa fa-star"></li>
+				<li class="fa fa-star"></li>
+				<li class="fa fa-star"></li>
+				<li class="fa fa-star"></li>
+			</ul>
+			<span>很满意</span>
+		</div>
+		<button type="button" class="starDown">确定</button>
+	</div>
+</div>
+<div id="templateRow" style="display: none;">
+	<div class="row">
+		<div class="col"><span>13:23</span><p>2016/4/19</p></div>
+		<div class="col">处理中</div>
+		<div class="col"><button type='button' class="ac"><i></i><span>评价</span><i></i></button></div>
+		<div class="col"><button type='button'><i></i><span>已评价</span><i></i></button></div>
+
+	</div>
+</div>

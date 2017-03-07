@@ -1,0 +1,28 @@
+[
+    {
+        "id": 100,
+        "headImg": "images/start-1.jpg",
+        "workImg": "images/start-1.jpg",
+        "authorName": "张三",
+        "termTitle": "1602期",
+        "specialtyTitle": " 游戏原型设计师班",
+        "classTitle": "1602期游戏原型设计师班1班【OT】",
+        "workContImg": "images/start-1cont.jpg",
+        "workTitle": "游戏设计系列-《刺客》",
+        "browse":389,
+        "like":288
+    },
+    {
+        "id": 101,
+        "headImg": "images/start-2.jpg",
+        "workImg": "images/start-2.jpg",
+        "authorName": "李四",
+        "termTitle": "1603期",
+        "specialtyTitle": " 游戏原型设计师班",
+        "classTitle": "1603期游戏原型设计师班2班",
+        "workContImg": "images/start-2cont.jpg",
+        "workTitle": "游戏设计系列-《血族》",
+        "browse":889,
+        "like":388
+    }
+]

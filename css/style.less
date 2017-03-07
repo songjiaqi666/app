@@ -1,0 +1,1260 @@
+
+@brem:100rem;
+
+/*---------------首页样式 start----------------*/
+.app{ 
+    width: 100%; 
+    overflow: auto;
+    margin-bottom: 110/@brem; 
+    background-color: #F7F7F7;
+}
+/*//内容页分享菜单*/
+    .hintHome{
+        position: fixed;
+        top:386/@brem ;
+        left: 92/@brem;
+        z-index: 9;
+        width:536/@brem ;
+        height: 380/@brem;
+        background-color: #fff;
+        border-radius: 24/@brem;
+        text-align: center;
+        p{
+            font-size: 28/@brem;
+            line-height:50/@brem;
+            margin-top: 100/@brem;
+            font-weight: normal;
+        }
+        button{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 85/@brem;
+            line-height: 85/@brem;
+            text-align: center;
+            color: #fff;
+            background: #2ac598;
+            border-radius:0 0 24/@brem 24/@brem;
+            font-size:34/@brem;
+        }
+    }
+/* header 头部区域 */
+header{
+    width:100%;
+    height: 252/@brem;
+    background: url(../images/header_bg.png);
+    background-size: cover;
+    .header{
+        position: relative;
+        width: 696/@brem;
+        margin: 0 auto;
+       
+
+        div:nth-of-type(1){
+            float: left;
+            width: 114/@brem ;
+            height: 114/@brem;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 50/@brem 34/@brem 0 28/@brem;
+        }
+        div:nth-of-type(2){
+            color: #ffffff;
+            float: left;
+            margin-top:45/@brem;
+            h2{
+                font-size: 40/@brem;
+                font-weight: bold;
+            }
+            span{
+                margin-left: 10/@brem;
+            }
+            span,p{ line-height:35/@brem ;
+                    font-size:28/@brem ;
+                }
+        }
+        div:nth-of-type(3){
+            float: right;
+            width: 51/@brem;
+            height: 53/@brem;
+            margin-top:80/@brem;
+            margin-right: 46/@brem;
+        }
+        div:nth-of-type(4){
+            position: absolute;
+            top: 150/@brem;
+            left: 309/@brem;
+            width: 51/@brem;
+            height: 53/@brem;
+            a{
+                color: rgba(255,255,255,0.5);
+                animation: run 2s infinite;
+            }
+            
+        }
+        @keyframes run{
+            0%{opacity: 0.5;}
+            50%{opacity: 1;}
+            100%{opacity: 0.5;}
+        }
+    }
+}
+
+/*内容区域 start*/
+.inner{
+    width: 696/@brem;
+    margin: 0 auto;
+    margin-top: 42/@brem;
+}
+
+/*banner区域*/
+.banner{
+    width:696/@brem;
+    height: 276/@brem;
+    position: relative;
+    ul{
+        li{
+            border-radius: 5/@brem;
+            overflow: hidden;
+        }
+    }
+    ol{ position: absolute;
+        left: 300/@brem;
+        bottom:20/@brem;
+        .ac{
+            background-color: #ffffff;
+        }
+        li{
+            float: left;
+            width: 8/@brem;
+            height: 8/@brem;
+            border-radius: 50%;
+            margin: 0 5/@brem;
+            background-color: #dee5e8;
+        }
+    }
+}
+
+/*我的作品*/
+.work{
+    width: 100%;
+    .title{
+        padding-right: 18/@brem;
+        padding-top: 32/@brem;
+        height: 58/@brem;
+        padding-left: 18/@brem;
+        h3{
+            float: left;
+           font-size: 30/@brem;
+           line-height: 36/@brem;
+           i{
+               float: left;
+               display: block;
+               width: 36/@brem;
+               height: 36/@brem;
+               margin-right: 10/@brem;
+           }
+           .wk{
+               background: url(../images/wx_03.png);
+               background-size: cover;
+           }
+           .wx{
+               background: url(../images/work.png);
+               background-size: cover;
+           } 
+        }
+        .more{
+            margin-top: 12/@brem;
+            float: right;
+            font-size: 20/@brem;
+            a{
+                color: #2ac598; 
+            }
+        }
+    }
+    .workList{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        div{
+            border: 1px solid #b9baba;
+            box-sizing: border-box;
+            width: 342/@brem;
+            height: 448/@brem;
+            background-color: #ffffff;
+            box-shadow: 0 2px 3px 2px #eeefef;
+            border-radius: 10/@brem;
+            margin-bottom: 15/@brem;
+            a{
+                color: #030303;
+            }
+            h5{
+                font-size:28/@brem ;
+                margin: 15/@brem;
+                line-height: 30/@brem;
+            }
+            p{
+                font-size: 26/@brem;
+                margin-left: 10/@brem;
+                margin-bottom: 24/@brem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-right: 10/@brem;
+            }
+        }
+    }
+}
+/*---------------首页样式 end----------------*/
+
+/*---------------火星助手 页面样式  start--------------*/
+.content{
+
+
+
+
+    /*/火星助手*/
+    .message{
+        background-color: #f4f5f6;
+        width:678/@brem;
+        padding: 70/@brem 21/@brem 58/@brem 21/@brem;
+        textarea{
+            width: 678/@brem;
+            height: 250/@brem;
+            border: 1px solid #d4d4d4;
+            border-radius: 10/@brem;
+            box-sizing: border-box;
+            margin-bottom: 56/@brem;
+            margin-top: 15/@brem;
+            font-size: 34/@brem;
+            color: #606060;
+        }
+        button{
+            display: block;
+            disabled:disabled;
+            position: relative;
+            width: 258/@brem;
+            height: 70/@brem;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 32/@brem;
+            background-color: none;
+            cursor: pointer;
+            i{
+                display: block;
+                width: 70/@brem;
+                height: 70/@brem;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                background-color: #19ADB9;
+               
+            }
+            i:nth-of-type(1){
+                left: 0;  
+            }
+            i:nth-of-type(2){
+                right: 0;
+                  
+            }
+            span{
+                line-height: 70/@brem;
+                position: absolute;
+                top: 0;
+                left: 30/@brem;
+                z-index: 1;
+                width: 198/@brem;
+                height: 70/@brem;
+                background-color: #19ADB9;
+            }
+        }
+    }
+    .messList{
+        background: #fff;
+        .tabItem {
+            color: #606060;
+            text-align: center;
+            p:nth-child(1){
+                font-size: 10/@brem;
+                padding-top: 176/@brem;
+            }
+            .row{
+                line-height: 150/@brem;
+                height: 150/@brem;
+                border-top: 1px solid #e1e1e1;
+                display: flex;
+                justify-content: space-around;
+                .col{
+                    font-size: 28/@brem;
+                    color:#606060;
+                    h3{
+                        font-size: 34/@brem;
+                        color: #303030;
+                    }
+                    span{
+                        font-size: 28/@brem;
+                    }
+                    p{
+                        line-height: 0/@brem;
+                        margin-top: -45/@brem;
+                        font-size: 20/@brem;
+                    }
+                    .ac{
+                        i{
+                            display: block;
+                            width: 46/@brem;
+                            height: 46/@brem;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 0;
+                            background-color: #19ADB9;
+                           
+                        }
+                        i:nth-of-type(1){
+                            left: 0;  
+                        }
+                        i:nth-of-type(2){
+                            right: 0;
+                              
+                        }
+                        span{
+                            line-height: 46/@brem;
+                            position: absolute;
+                            top: 0;
+                            left: 23/@brem;
+                            z-index: 1;
+                            width: 74/@brem;
+                            height: 46/@brem;
+                            background-color: #19ADB9;
+                            color: #fff;
+                        }
+                    }
+                    button{
+                        display: block;
+                        position: relative;
+                        width: 120/@brem;
+                        height: 46/@brem;
+                        margin: 57/@brem auto 0 auto;
+                        color: #fff;
+                        font-size: 28/@brem;
+                        background-color: none;
+                        
+                        span{
+                            line-height: 46/@brem;
+                            font-size: 28/@brem;
+                            position: absolute;
+                            top: 0;
+                            left: 0/@brem;
+                            z-index: 1;
+                            width: 120/@brem;
+                            height: 46/@brem;
+                            color:#606060;
+                           
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/*---------------火星助手 页面样式  end----------------*/
+
+/*---------------我的作品 页面样式  start--------------*/
+.workBox{
+    margin-top: 110/@brem;
+    margin-bottom: 20/@brem;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    div{
+        border: 1px solid #b9baba;
+        box-sizing: border-box;
+        margin-top: 15/@brem;
+        width: 342/@brem;
+        height: 555/@brem;
+        background-color: #ffffff;
+        box-shadow: 0 2px 3px 2px #eeefef;
+        border-radius: 10/@brem;
+        h3{
+            width: 100%;
+            border-bottom: 1px solid #efefef;
+            height: 65/@brem;
+            font-size:32/@brem ;
+            line-height: 65/@brem;
+            color: #303030;
+            padding: 24/@brem 0 27/@brem 0;
+            i{
+                float: left;
+                display: block;
+                width: 65/@brem;
+                height: 65/@brem;
+                border-radius: 50%;
+                margin: 0 20/@brem;
+                overflow: hidden;
+            }
+        }
+        p{
+            height: 95/@brem;
+            line-height: 95/@brem;
+            font-size: 24/@brem;
+            margin-left: 10/@brem;
+            color: #808080;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-right: 10/@brem;
+        }
+    }
+}
+
+/*我的作品-内容页*/
+.workCont{
+    margin-top: 110/@brem;
+    background-color: #f7f7f7;
+    
+    .Wtitle{
+        margin: 0 30/@brem;
+        height: 100/@brem;
+        line-height: 100/@brem;
+        h3{
+            float: left;
+            font-size: 34/@brem;
+            color: #303030;
+        }
+        ul{
+            float: right;
+            
+            li{
+                float: left;
+                text-align: center;
+                margin: 0 30/@brem;
+                font-size: 20/@brem;
+                color: #bfbfbf;
+                i{
+                    width: 32/@brem;
+                    height: 32/@brem;
+                    line-height: 32/@brem;
+                   margin-right: 15/@brem; 
+                }
+            }
+            li:nth-of-type(2){
+                margin-right: 0;
+            }
+        }
+    }
+    .Whead{
+        margin: 0 30/@brem;
+        height: 70/@brem;
+        font-size: 28/@brem;
+        line-height: 70/@brem;
+        i{
+            float: left;
+            width: 70/@brem;
+            height: 70/@brem;
+            border-radius: 50%;
+            margin-right: 15/@brem;
+            overflow: hidden;
+        }
+        span{
+            margin-right: 20/@brem;
+            color: #606060;
+        }
+    }
+    .Wcont{
+        margin: 30/@brem 18/@brem 0 18/@brem;
+    }
+}
+
+/*作品搜索页面*/
+.searchCont{
+    margin-top: 110/@brem;
+    padding: 0 55/@brem;
+    h4{
+        font-size: 28/@brem;
+        color: #606060;
+        line-height: 70/@brem;
+    }
+    a{
+        float: left; display: block;
+        font-size: 20/@brem; color: #bfbfbf;
+        line-height: 30/@brem; margin: 0 15/@brem;
+    }
+    
+}
+
+/*---------------我的作品 页面样式  end------------------------------*/
+
+/*---------------社区 页面样式  start--------------*/
+.headTab{
+    ul{
+        display: flex; justify-content: space-around; height: 107/@brem;
+        .ac{
+            border-bottom-color: #ffffff;
+        }
+        li{
+            font-size: 34/@brem; line-height: 107/@brem; border-bottom: 3px solid #19adb9;
+        }
+    }
+}
+.tabCont {
+    .tabItem {
+        display: none;
+        /*//CGTop 列表页*/
+        .cgtop{
+            border-bottom: 1px solid #3c3f43;
+            position: relative;
+            .out{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(0,0,0,0.7);
+                width: 720/@brem;
+                height: 100%;
+                .case{
+                    color: #fff;
+                    width:370/@brem ;
+                    height: 156/@brem;
+                    border:4/@brem solid #fff;
+                    background: none;
+                    margin: 92/@brem auto 0 auto;
+                    text-align: center;
+                    h3{
+                        font-size: 34/@brem;
+                        margin-top: 35/@brem;
+                        line-height: 55/@brem;
+                    };
+                    h4{
+                        font-size: 28/@brem;
+                        line-height: 40/@brem;
+                    }
+                }
+            }
+        }
+    }
+    /*/活动通知 列表页*/
+    .hdtz{
+        a{
+            color: #030303;
+        }
+        dl{
+            dd{
+                position: relative;
+                .ac{
+                    display: none;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(0,0,0,0.6);
+                    img{
+                        position:absolute ;
+                        right: 46/@brem;
+                        bottom: 27/@brem;
+                        width: 197/@brem;
+                        height: 173/@brem;
+                    }
+                }
+            }
+            
+            dt{
+                margin:30/@brem ;
+                i{ 
+                    margin-top: 11/@brem;
+                }
+                h3{
+                    font-size: 34/@brem;
+                    margin-bottom: 20/@brem;
+                    font-weight: normal;
+                }
+                p{
+                    font-size: 28/@brem;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                span{display: block;
+                    font-size: 25/@brem;
+                    line-height: 44/@brem;
+                }
+                p,span{
+                    line-height: 50/@brem;
+                }
+        
+                
+            }
+        }
+    }
+    /*/校园广播  列表页*/
+    .xygb{
+        /*/正常显示 页面*/
+        ul{
+          li{
+              padding: 30/@brem;
+             border-bottom: 1px solid #eae9e9;
+             color: #606060; 
+             font-size: 28/@brem;
+             .bt{
+                 width:660/@brem;
+                 font-size: 34/@brem;
+                 line-height: 50/@brem;
+                 a{
+                     width: 530/@brem;
+                     display: block;
+                     float: left;
+                     overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                    color: #030303;
+                 }
+                 span{
+                     width: 160/@brem;
+                     display: block;
+                     float: right;
+                     font-size: 28/@brem;
+                     text-align: right;
+                 }
+             }
+             h3{
+                 margin: 10/@brem 0;
+                 display:block;
+                 a{
+                     font-size: 28/@brem;
+                     color:#64c4cd ;
+                     line-height: 45/@brem;
+                 }  
+             }
+             
+             p{
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+                line-height: 45/@brem;
+             }
+          }  
+        }
+    }
+}
+
+.content{
+    /*/CGTop内容页*/
+    .cgtopCont{
+        .video{
+           border-bottom: 1px solid #bfbdbe; 
+        }
+        .cont{
+            padding: 30/@brem;
+            h3{
+                font-size: 34/@brem;
+                color:#303030;
+                border-bottom: 1px solid #d4d4d4;
+                line-height: 60/@brem;
+                padding-bottom: 20/@brem;
+            }
+            p{
+                font-size: 28/@brem;
+                color:#606060;
+                margin-top: 40/@brem;
+                line-height: 50/@brem;
+                text-indent: 2em;
+            }
+        }
+        
+    }
+    /*/活动通知 内容页*/
+    .hdtzCont{
+        padding: 30/@brem 30/@brem 0 30/@brem;
+        .line{
+             width: 100%;
+             height: 1px;
+             background-color: #d4d4d4;
+             margin-top: 22/@brem;
+             margin-bottom: 35/@brem;
+        }
+        i{  
+            margin-top: 8/@brem;
+            }
+        h2{
+             font-size: 34/@brem;
+             margin-bottom: 20/@brem;
+             font-weight: normal;
+        }
+        p{
+                font-size: 28/@brem;
+        }
+        span{display: block;
+             font-size: 25/@brem;
+             line-height: 44/@brem;
+        }
+        p,span{
+             line-height: 50/@brem;
+         }
+        .dizhiIcon{
+             margin-top: 10/@brem;
+        }
+        .timeIcon{
+            margin-top: 10/@brem;
+        }
+    }
+    /*/校园广播 内容页*/
+    .xygbCont{
+        font-size: 28/@brem;
+        .Xtitle{
+            padding: 30/@brem;
+            border-bottom: 1px solid #e2e0e0;
+            h3{
+                font-size: 34/@brem;
+                line-height: 70/@brem;
+                a{
+                    font-size: 28/@brem;
+                    color: #19ADB9;
+                    float: right;
+                }
+            }
+            p{
+                line-height: 45/@brem;
+                span{
+                    margin-right: 30/@brem;
+                }
+            }
+        }
+        .Xcont{
+            padding: 30/@brem;
+            p{
+                text-indent: 2em;
+                line-height: 50/@brem;
+            }
+        }
+    }
+}
+
+
+/*---------------社区 页面样式  end--------------*/
+/*---------------设置 页面样式  start--------------*/
+.content{
+    /*/设置界面*/
+    .set{
+        ul{
+            padding: 30/@brem; 
+            li{
+                height: 130/@brem;
+                line-height: 130/@brem;
+                font-size: 34/@brem;
+                border-bottom: 1px solid #e1e1e1;
+                span{
+                    float: right;
+                    font-size: 20/@brem;
+                    text-align: center;
+                    display: block;
+                    border-radius: 50%;
+                }
+                .headPic{
+                    width: 95/@brem;
+                    height: 95/@brem;
+                    overflow: hidden;
+                    margin-top: 15/@brem;
+                }
+                .inform{
+                    width: 50/@brem;
+                    height: 50/@brem;
+                    color: #FFFFFF;
+                    line-height: 50/@brem;
+                    background: #2ac598;
+                    margin-top: 40/@brem;
+                }
+                .grade{
+                    color:#606060 ;
+                }
+                i{
+                    width: 22/@brem;
+                    height: 22/@brem;
+                    background: #fb5e5e;
+                    display: inline-block;
+                    border-radius: 50%;
+                    margin-left: 5/@brem;
+                }
+            }
+        }
+    }
+    /*/设置密码*/
+    .password{
+        padding: 0 30/@brem;
+        color: #606060;
+        background-color: #f7f7f7;
+        height: 92vh;
+        input{
+            background-color: #fff;
+            height: 55/@brem;
+            width: 610/@brem;
+            line-height: 55/@brem;
+            padding:25/@brem;
+            border-radius: 8/@brem;
+            font-size: 34/@brem;
+        }
+        p{
+            font-size: 28/@brem;
+            height: 82/@brem;
+            line-height: 82/@brem;
+            padding-left: 10/@brem;
+        }
+        button{
+            display: block;
+            position: relative;
+            width: 660/@brem;
+            height: 86/@brem;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 32/@brem;
+            background-color: none;
+            cursor: pointer;
+            a{
+                color: #FFFFFF;
+            }
+            i{
+                display: block;
+                width: 86/@brem;
+                height: 86/@brem;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                background-color: #19ADB9;
+               
+            }
+            i:nth-of-type(1){
+                left: 0;  
+            }
+            i:nth-of-type(2){
+                right: 0;
+                  
+            }
+            span{
+                line-height: 86/@brem;
+                position: absolute;
+                top: 0;
+                left: 43/@brem;
+                z-index: 1;
+                width: 574/@brem;
+                height: 86/@brem;
+                background-color: #19ADB9;
+            }
+        }
+    }
+}
+
+/*---------------设置 页面样式  end--------------*/
+
+/*---------------我的成绩 页面样式  start--------------*/
+
+#indicatorContainer{
+    width: 300/@brem;
+    margin: 0 auto;
+    padding: 100/@brem 0;
+    position: relative;
+}
+#fenshu{
+    position: absolute;
+    left: 110/@brem;
+    top:150/@brem;
+    font-size:100/@brem;
+}
+#desc{
+    width:200/@brem;
+    text-align: center;
+    position: absolute;
+    left:70/@brem;
+    top:280/@brem;
+    font-size:24/@brem;
+}
+
+
+.grade{
+    >dl{
+        padding: 30/@brem;
+        dd{
+            width: 115/@brem;
+            height: 115/@brem;
+            border-radius: 50%;
+            overflow: hidden;
+            float: left;
+            margin-right: 40/@brem;
+        }
+        dt{
+            h3{
+                font-size: 40/@brem;
+                color: #505050;
+                margin-bottom: 5/@brem;
+                b{
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 15/@brem;
+                    font-weight: normal;
+                    width: 185/@brem;
+                    height: 38/@brem;
+                    line-height: 38/@brem;
+                    i{
+                        width: 38/@brem;
+                        height: 38/@brem;
+                        display: block;
+                        background-color: #19ADB9;
+                        border-radius: 50%;
+                    }
+                    i:nth-of-type(1){
+                        float: left;
+                    }
+                    i:nth-of-type(2){
+                        float: right;
+                    }
+                    span{
+                        position: absolute;
+                        left:19/@brem;
+                        top: 0;
+                        width: 147/@brem;
+                        height: 38/@brem;
+                        background-color: #19ADB9;
+                        font-size: 24/@brem;
+                        color: #FFFFFF;
+                        
+                    }
+                }
+            }
+            p{
+                font-size: 28/@brem;
+                color: #707070;
+                line-height: 45/@brem;
+                i{
+                    font-size: 26/@brem;
+                }
+                i:nth-of-type(1){
+                    margin-right: 50/@brem;
+                }
+            }
+        }
+    }
+    /*/专业成绩*/
+   .major{
+       position: relative;
+       background: #f4fcfe;
+       height: 390/@brem;
+       h3{
+           height: 54/@brem;
+           line-height: 54/@brem;
+           padding-left: 30/@brem;
+           font-size: 26/@brem;
+           i{
+               width: 44/@brem;
+               height: 34/@brem;
+               display: block;
+               float: left;
+               margin-right: 15/@brem;
+               margin-top: 6/@brem;
+           }
+       }
+       .canvas{
+           width: 720/@brem;
+           height: 338/@brem;
+           background: url(../images/grade_02.png) no-repeat;
+           background-size: cover;
+           display:flex;
+           justify-content: space-around;
+           div{
+               width: 144/@brem;
+               height: 338/@brem;
+               a{
+                   display: block;
+                   width: 144/@brem;
+               height: 338/@brem;
+                   color: rgba(0,0,0,0);
+               }
+           }
+        }
+        
+   }
+   /*/职业素质*/
+  .quality{
+      padding: 30/@brem;
+      h3{
+            height: 54/@brem;
+            line-height: 54/@brem;
+            padding-left: 30/@brem;
+            font-size: 26/@brem;
+            i{
+                width: 40/@brem;
+                height: 40/@brem;
+                display: block;
+                float: left;
+                margin-right: 15/@brem;
+                margin-top: 6/@brem;
+            }
+       }
+       .line-bg{
+           margin-top: 20/@brem;
+           width: 660/@brem;
+           height: 34/@brem;
+           background-color: #efefef;
+           .line-up{
+                width: 600/@brem;
+                height: 34/@brem;
+               background: -webkit-linear-gradient(left, #56d1ae, #a3d9f4); /* Safari 5.1 - 6.0 */
+                background: -o-linear-gradient(left, #56d1ae,#a3d9f4); /* Opera 11.1 - 12.0 */
+                background: -moz-linear-gradient(left, #56d1ae, #a3d9f4); /* Firefox 3.6 - 15 */
+                background: linear-gradient(to right, #56d1ae,#a3d9f4); /* 标准的语法（必须放在最后） */
+           }
+       }
+    }
+    /*/击败同学*/
+   .beat{
+       margin-top: 15/@brem;
+       background: #2cc59b;
+       .canvas{
+           width: 720/@brem;
+           height: 383/@brem;
+           background: url(../images/grade_04.png) no-repeat;
+           background-size: cover;
+       
+        }
+       h3{
+            height: 75/@brem;
+            line-height: 75/@brem;
+            padding-left: 30/@brem;
+            font-size: 26/@brem;
+            color: #FFFFFF;
+            border-bottom:1px solid #51ceb0;
+            i{
+                width: 50/@brem;
+                height: 48/@brem;
+                display: block;
+                float: left;
+                margin-right: 15/@brem;
+                margin-top: 6/@brem;
+            }
+       }
+   }
+   
+}
+/*/返回*/
+.return{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 82/@brem;
+    line-height: 10/@brem;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    a{
+        color: #FFFFFF;
+        i{
+            opacity: 0.5;
+        }
+    }
+    
+}
+
+/*/作业成绩分享*/
+.gradeShare{
+    .tabItem{
+        position: relative;
+        .cont{
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            color: #1d3462;
+            h3{
+                margin-top: 130/@brem;
+                margin-bottom: 10/@brem;
+                font-size: 48/@brem;
+            }
+            p{
+                font-size: 32/@brem;
+                span{
+                    color: #19adb9;
+                    font-size: 80/@brem;
+                    i{
+                        font-size: 40/@brem;
+                    }
+                }
+            }
+            .plus{
+                text-align: center;
+                position: absolute;
+                top: 760/@brem;
+                left: 300/@brem;
+                width: 150/@brem;
+                height: 150/@brem;
+                font-size: 150/@brem;
+                color: #fae9b1;
+            }
+            .btn{
+                width: 660/@brem;
+                height: 90/@brem;
+                position: absolute;
+                top: 1078/@brem;
+                left: 30/@brem;
+                button{
+                    width: 312/@brem;
+                    height: 90/@brem;
+                    border-radius: 8/@brem;
+                    font-size: 34/@brem;
+                    color: #FFFFFF;
+                    text-align: left;
+                    i{
+                        float: left;
+                        width: 42/@brem;
+                        height: 42/@brem;
+                        display: block;
+                        margin-left: 92/@brem;
+                        margin-right: 15/@brem;
+                    }
+                }
+                button:nth-of-type(1){
+                    float: left;
+                    background-color: #19adb9;
+                }
+                button:nth-of-type(2){
+                    float: right;
+                    background-color: #fccb19;
+                }
+            }
+        }
+    }
+    /*/关闭页面*/
+   .close{
+       z-index: 10;
+       position: fixed;
+       top: 20/@brem;
+       right: 20/@brem;
+       width: 70/@brem;
+       height: 70/@brem;
+       background-color: rgba(0,0,0,0.4);
+       border-radius: 50%;
+       text-align: center;
+       a{
+           display: block;
+           line-height: 64/@brem;
+           font-size: 50/@brem;
+           color: #FFFFFF;
+       }
+   }
+}
+/*/获取连接*/
+    .gainLink{
+        position: fixed;
+        top: 490/@brem;
+        left: 170/@brem;
+        z-index: 9;
+        font-size: 34/@brem;
+        width: 365/@brem;
+        height: 145/@brem;
+        line-height: 145/@brem;
+        border-radius: 13/@brem;
+        background-color: rgba(0,0,0,0.4);
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+/*---------------我的成绩 页面样式  end--------------*/
+
+/*--------------登陆验证 start--------------*/
+/*/登陆验证*/
+    .login{
+        width:720/@brem;
+        height: 100vh;
+        background-image:  url('../images/loginbg.jpg');
+        background-size: cover;
+
+        form{
+            background-color:rgba(0,0,0,0.8);
+            position:relative;
+            width: 630/@brem;
+            padding: 0 45/@brem;
+            height: 100%;
+            .logo{
+                position: absolute;
+                top: 245/@brem;
+                left: 283/@brem;
+                width: 150/@brem;
+            }
+            i{
+                color: #19adb9;
+                width: 45/@brem;
+                height: 45/@brem;
+                float: left;
+                margin-right: 20/@brem;
+                font-size: 60/@brem;
+                text-align: center;
+                
+            }
+            input{
+                color: #FFFFFF;
+                width: 560/@brem;
+                line-height: 60/@brem;
+                border-bottom: 1px solid #808080;
+                float: right;
+            }
+            .user{
+                position: absolute;
+                top: 515/@brem;
+                width: 630/@brem;
+                height: 60/@brem;
+            }
+            .password{
+                position: absolute;
+                top: 645/@brem;
+            }
+            .loginBtn{
+                position: absolute;
+                top: 810/@brem;
+                width: 630/@brem;
+                height: 100/@brem;
+                background: url('../images/btn_03.png');
+                background-size: cover;
+                a{
+                    width: 630/@brem;
+                    height: 100/@brem;
+                    display: block;
+                    text-align: center;
+                    line-height: 100/@brem;
+                    font-size: 34/@brem;
+                    color: #19adb9;
+                }
+            }
+            
+            .forget{
+                position: absolute;
+                top: 935/@brem;
+                left: 300/@brem;
+                width: 140/@brem;
+                color: #606060;
+                font-size: 28/@brem;
+                
+                
+            }
+        }
+    }
+
+
+/*/设置密码*/
+.password{
+    .red{
+        text-align: right;
+        color: #fb5e5e;
+    }
+    a{
+        display: block;
+        margin: 40/@brem auto;
+        text-align: center;
+        color: #606060;
+        font-size: 28/@brem;
+    }
+}
+    
+/*--------------登陆验证 end--------------*/

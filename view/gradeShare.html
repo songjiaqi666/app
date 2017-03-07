@@ -1,0 +1,53 @@
+
+<!--成绩分享-->
+<div class="gradeShare">
+	<!--正文内容-->
+	<!--等级为A-->
+	<div class="tabItem">
+		<!--关闭-->
+		<div class="close" id="gotoBack"><a><i class="fa fa-remove"></i></a></div>
+		<!--背景图片-->
+		<div class="bg">
+			<img src="images/cj.png" />
+		</div>
+		<!--前台需要修改部分-->
+		<div class="cont" id="cont">
+			<h3>李雷</h3>
+			<p class="kc">在移动平台图标设计课中</p>
+			<p class="jb">击败了<span>95<i>%</i></span>的同学</p>
+			<i class="plus">3</i>
+			<div class="btn">
+				<button type="button" id="share"><i><img src="images/cj1_07.png"/></i>分享</button>
+				<button type="button" id="save"><i><img src="images/cj1_10.png"/></i>保存</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="box"></div>
+
+<div id="template" style="display: none;">
+	<!--分享菜单弹窗-->
+	<!--模态层-->
+	<div class="modal"></div>
+	<!--分享菜单-->
+	<div class="share">
+		<div class="shareUp">
+			<h3>分享到</h3>
+			<ul>
+				<li><i><img src="images/share_03.png"/></i>微信好友</li>
+				<li><i><img src="images/share_05.png"/></i>新浪微博</li>
+				<li><i><img src="images/share_07.png"/></i>朋友圈</li>
+				<li id="getLink"><i><img src="images/share_09.png"/></i>获取链接</li>
+			</ul>
+		</div>
+		<button type="button" class="shareDown" id="shareDown">取消</button>
+	</div>
+</div>
+
+<div id="templateLink" style="display: none;">
+	<!--获取链接-->
+	<div class="gainLink">
+		已获取链接
+	</div>
+</div>
+
