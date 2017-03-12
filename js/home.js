@@ -71,6 +71,7 @@ var homeCtrl={
 				$cell.find('a').attr('href','#id='+nowWork[i].id).data('id',nowWork[i].id).click(function(){
 					worksId=$(this).data('id');
 					route('workCont');
+					$('#footer').html('');
 				})
 				
 				$work.append($cell);
@@ -107,6 +108,7 @@ var homeCtrl={
 				$cell.find('a').attr('href','#id='+data[i].id).data('id',data[i].id).click(function(){
 					starWorksId=$(this).data('id');
 					route('starWorkCont');
+					$('#footer').html('');
 				})
 				
 				$star.append($cell);

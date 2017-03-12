@@ -38,6 +38,7 @@ var contCtrl={
 	goBack:function(){
 		$('#goBack').find('a').attr('href','#/shequ').click(function(){
 			route('shequ');
+			route('footer',$('#footer'));
 		})
 	},
 	

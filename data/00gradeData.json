@@ -1,93 +1,135 @@
-[
-    {
-        "nickname": "likang",
-        "studentName": "李康",
-        "avatar": "images/likang.jpg",
-        "classTitle": "数字媒体11-1班",
-        "termTitle": "2011级",
-        "averageGrade": "A-",
-        "classRanking": 3,
-        "workRate": 97,
-        "attendanceRate": 95.5,
-        "classBeatRate": 92,
-        "isThreeClock ": 1,
-        "historyWeek": 6,
-        "careersGrade": 94,
-        "careersGradeList": [
-            {
+{
+    "busiCode": "101008",
+    "code": 200,
+    "msg": "成功",
+    "data":[
+    	{
+	        "careersGrade": 85.5,
+	        "historyWeek": 10,
+	        "courseList": [
+	            {
+	                "week": 1,
+	                "Grade": "A+",
+	                "coureTitle": "UI动效设计应用课",
+	                "courseId": 1231
+	            },
+	            {
+	                "week": 2,
+	                "grade": "B+",
+	                "coureTitle": "网页样式与布局设计课 I",
+	                "courseId": 1231
+	            }
+	        ],
+	        "beatRateList": [
+	            {
+	                "week": 1,
+	                "classBeatRate": 91
+	            },
+	            {
+	                "week": 2,
+	                "classBeatRate": 91
+	            }
+	        ]
+	    },
+    
+    ]
+     
+}
+
+{
+	"likang":{
+       	"studentName": "李康",
+		"avatar": "../images/likang.jpg",
+		"classTitle": "1601期Web前端工程师1班【VIP】",
+		"termTitle": "1601期",
+		"averageGrade": "A-",//平均成绩
+		"classRanking": 3,//班级排名
+		"workRate": 97,//作业提交率
+		"attendanceRate": 95.5,//考勤率
+		"classBeatRate": 92, //考试击败率
+		"isThreeClock ": 1,//是否三天未签退   0：非  1：是
+		"historyWeek": 6,	//现在总共学习过几周
+		"careersGrade": 94,//职业素质
+		//职业素质扣分列表
+		"careersGradeList":[
+			{
                 "date": "2016-3-22",
-                "grade": -1,
+                "grade": -0.5,
                 "explain": "下午缺勤",
-                "totalGrade": 95
+                "totalGrade":95.5 ,
             },
             {
                 "date": "2016-3-05",
                 "grade": -0.5,
                 "explain": "早退",
-                "totalGrade": 96
+                "totalGrade": 96,
             },
             {
                 "date": "2016-2-01",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 96.5
+                "totalGrade": 96.5,
             },
             {
                 "date": "2016-1-15",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 97.5
+                "totalGrade": 97.5,
             },
             {
                 "date": "2016-1-07",
                 "grade": -0.5,
                 "explain": "迟到",
-                "totalGrade": 98.5
+                "totalGrade": 98.5,
             },
             {
                 "date": "2016-1-05",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 99
-            }
-        ],
+                "totalGrade": 99,
+            },
+
+		], 
+		//专业成绩
         "courseList": [
             {
                 "week": 1,
-                "grade": "B+",
+                "Grade": "A+",
                 "coureTitle": "Javascript运动框架应用课",
-                "classBeatRate": 80,
-                "courseId": 1001
+                "courseId": 1001 //课程ID
             },
             {
                 "week": 2,
-                "grade": "A-",
+                "grade": "B+",
                 "coureTitle": "Jquery与Ajax交互应用课",
-                "classBeatRate": 90,
                 "courseId": 1002
             },
             {
                 "week": 3,
-                "grade": "A-",
+                "Grade": "A-",
                 "coureTitle": "MVC前端框架应用课",
-                "classBeatRate": 89,
                 "courseId": 1003
             },
             {
                 "week": 4,
-                "grade": "A",
-                "coureTitle": "H5响应式设计应用课",
-                "classBeatRate": 93,
+                "grade": "A-",
+                "coureTitle": "Web APP轻应用开发课",
                 "courseId": 1004
             },
             {
                 "week": 5,
-                "grade": "B+",
-                "coureTitle": "Web APP轻应用开发课",
-                "classBeatRate": 82,
+                "Grade": "A",
+                "coureTitle": "H5响应式设计应用课",
                 "courseId": 1005
-            }
+            },
+            {
+                "week": 6,
+                "grade": "B+",
+                "coureTitle": "H5移动项目综合实训课",
+                "courseId": 1006
+            },
         ],
+        //专业课程击败率
         "beatRateList": [
             {
                 "week": 1,
@@ -112,49 +154,53 @@
             {
                 "week": 6,
                 "classBeatRate": 80
-            }
-        ]
-    },
-    {
-        "nickname": "yezi",
-        "studentName": "叶子",
-        "avatar": "../images/yezi.jpg",
-        "classTitle": "数字媒体11-1班",
-        "termTitle": "2011级",
-        "averageGrade": "A+",
-        "classRanking": 2,
-        "workRate": 100,
-        "attendanceRate": 98,
-        "classBeatRate": 99,
-        "isThreeClock ": 0,
-        "historyWeek": 6,
-        "careersGrade": 98,
-        "careersGradeList": [
+            },
+        ],
+	},
+	
+	"yezi":{
+       	"studentName": "叶子",
+		"avatar": "../images/yezi.jpg",
+		"classTitle": "1601期UI视觉设计师班1班【OT】",
+		"termTitle": "1601期",
+		"averageGrade": "A+",//平均成绩
+		"classRanking": 2,//班级排名
+		"workRate": 100,//作业提交率
+		"attendanceRate": 98,//考勤率
+		"classBeatRate": 99, //考试击败率
+		"isThreeClock ": 0,//是否三天未签退   0：非  1：是
+		"historyWeek": 6,	//现在总共学习过几周
+		"careersGrade": 98,//职业素质
+		//职业素质扣分列表
+		"careersGradeList":[
+			
             {
                 "date": "2016-3-15",
                 "grade": -0.5,
                 "explain": "迟到",
-                "totalGrade": 97.5
+                "totalGrade": 97.5,
             },
             {
                 "date": "2016-2-07",
                 "grade": -0.5,
                 "explain": "迟到",
-                "totalGrade": 98.5
+                "totalGrade": 98.5,
             },
             {
                 "date": "2016-1-05",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 99
-            }
-        ],
+                "totalGrade": 99,
+            },
+
+		], 
+		//专业成绩
         "courseList": [
             {
                 "week": 1,
                 "Grade": "A+",
                 "coureTitle": "Javascript运动框架应用课",
-                "courseId": 1001
+                "courseId": 1001 //课程ID
             },
             {
                 "week": 2,
@@ -164,7 +210,7 @@
             },
             {
                 "week": 3,
-                "grade": "A-",
+                "Grade": "A-",
                 "coureTitle": "MVC前端框架应用课",
                 "courseId": 1003
             },
@@ -176,7 +222,7 @@
             },
             {
                 "week": 5,
-                "grade": "A+",
+                "Grade": "A+",
                 "coureTitle": "H5响应式设计应用课",
                 "courseId": 1005
             },
@@ -185,8 +231,9 @@
                 "grade": "A+",
                 "coureTitle": "H5移动项目综合实训课",
                 "courseId": 1006
-            }
+            },
         ],
+        //专业课程击败率
         "beatRateList": [
             {
                 "week": 1,
@@ -211,79 +258,82 @@
             {
                 "week": 6,
                 "classBeatRate": 95
-            }
-        ]
-    },
-    {
-        "nickname": "zhoumo",
-        "studentName": "周沫",
-        "avatar": "../images/zhoumo.jpg",
-        "classTitle": "数字媒体11-1班",
-        "termTitle": "2011级",
-        "averageGrade": "B",
-        "classRanking": 23,
-        "workRate": 87,
-        "attendanceRate": 85.5,
-        "classBeatRate": 82,
-        "isThreeClock ": 1,
-        "historyWeek": 6,
-        "careersGrade": 93.5,
-        "careersGradeList": [
-            {
+            },
+        ],
+	},
+	
+	"zhoumo":{
+       	"studentName": "周沫",
+		"avatar": "../images/zhoumo.jpg",
+		"classTitle": "1601期UI视觉设计师班1班【OT】",
+		"termTitle": "1601期",
+		"averageGrade": "B",//平均成绩
+		"classRanking": 23,//班级排名
+		"workRate": 87,//作业提交率
+		"attendanceRate": 85.5,//考勤率
+		"classBeatRate": 82, //考试击败率
+		"isThreeClock ": 1,//是否三天未签退   0：非  1：是
+		"historyWeek": 6,	//现在总共学习过几周
+		"careersGrade": 93.5,//职业素质
+		//职业素质扣分列表
+		"careersGradeList":[
+			{
                 "date": "2016-3-22",
                 "grade": -1,
                 "explain": "下午缺勤",
-                "totalGrade": 93.5
+                "totalGrade":93.5 ,
             },
             {
                 "date": "2016-3-12",
                 "grade": -1,
                 "explain": "下午缺勤",
-                "totalGrade": 94.5
+                "totalGrade":94.5 ,
             },
             {
                 "date": "2016-3-05",
                 "grade": -0.5,
                 "explain": "迟到",
-                "totalGrade": 93.5
+                "totalGrade": 93.5,
             },
             {
                 "date": "2016-2-04",
                 "grade": -2,
                 "explain": "未提交作业",
-                "totalGrade": 94
+                "totalGrade": 94,
             },
             {
                 "date": "2016-2-01",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 96
+                "totalGrade": 96,
             },
             {
                 "date": "2016-1-17",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 97
+                "totalGrade": 97,
             },
             {
                 "date": "2016-1-10",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 98
+                "totalGrade": 98,
             },
             {
                 "date": "2016-1-05",
                 "grade": -1,
                 "explain": "未签退",
-                "totalGrade": 99
-            }
-        ],
+                "totalGrade": 99,
+            },
+
+		], 
+		//专业成绩
         "courseList": [
             {
                 "week": 1,
                 "Grade": "B+",
                 "coureTitle": "Javascript运动框架应用课",
-                "courseId": 1001
+                "courseId": 1001 //课程ID
             },
             {
                 "week": 2,
@@ -314,8 +364,9 @@
                 "grade": "B+",
                 "coureTitle": "H5移动项目综合实训课",
                 "courseId": 1006
-            }
+            },
         ],
+        //专业课程击败率
         "beatRateList": [
             {
                 "week": 1,
@@ -340,7 +391,7 @@
             {
                 "week": 6,
                 "classBeatRate": 80
-            }
-        ]
-    }
-]
+            },
+        ],
+	},
+}

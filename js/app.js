@@ -30,6 +30,7 @@ var starWorksId;//五星作品
 var xygbId;//校园广播
 var hdtzId;//活动通知
 var courseId;//活动通知
+var cgtopId;//cgtop
 
 var user;//当前登录用户
 

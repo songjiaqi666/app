@@ -4,7 +4,7 @@ var contCtrl={
 	getData:function (handler){
 		$.ajax({
 			type:"get",
-			url:"data/hdtz.json",
+			url:"data/cgtop.json",
 			success:function(data){
 				handler(data);
 			}
@@ -19,22 +19,31 @@ var contCtrl={
 			
 			//根据传递的 ID参数  找到当前作品
 			for(var i=0;i<data.length;i++){
-				if(hdtzId==data[i].id){
+				if(cgtopId==data[i].id){
 					nowData=data[i];
 				}
 			}
 			
 //			console.log(nowCont)
 			//将作品信息打印到页面中
-			$('#xygbCont .Xtitle').find('h3').html(""+nowData.title+"<a href='javascript:;'>"+nowData.type+"</a>");
-			$('#xygbCont .Xtitle').find('p').html("<span>"+nowData.createTime+"</span>"+nowData.time+"");
-			$('#xygbCont .Xcont').find('img').attr('src',nowData.srcimg);
-			$('#xygbCont .Xcont').find('p').html(nowData.content);
-			
+			$('#cgtopCont .video').find('img').attr('src',nowData.contimg);
+			$('#cgtopCont .cont').find('h3').html(nowData.title);
+			$('#cgtopCont .cont').find('p').html(nowData.content);
 			
 		})
 	},
-	
+	hint:function(){
+		$('#cgtopCont .video').find('img').click(function(){
+			var cell=$('#template').html();
+			var $cell=$(cell);
+			$('#box').append($cell);
+			console.log(cell)
+		});
+		
+		$('#box').on('click',$('.hint button'),function(){
+			$('#box').html('')
+		})
+	},
 	
 	goBack:function(){
 		$('#goBack').find('a').attr('href','#/shequ').click(function(){
@@ -48,5 +57,6 @@ var contCtrl={
 $(function(){
 	contCtrl.insertWork();
 	contCtrl.goBack();
+	contCtrl.hint();
 
 })

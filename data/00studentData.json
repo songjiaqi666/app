@@ -1,0 +1,49 @@
+{
+    "busiCode": "101007",
+	"code": 200,
+	"msg": "成功",
+	"data":[
+		{
+			"nickname": "likang",
+			"studentName": "李康",
+			"avatar": "../images/likang.jpg",
+			"classTitle": "1601期Web前端工程师1班【VIP】",
+			"termTitle": "1601期",
+			"averageGrade": "A-",//平均成绩
+			"classRanking": 3,//班级排名
+			"workRate": 97,//作业提交率
+			"attendanceRate": 95.5,//考勤率
+			"classBeatRate": 92, //成绩击败率
+			"isThreeClock ": 1,//是否三天未签退   0：非  1：是
+			"careersGrade": 94,//职业素质
+		},
+		{
+			"nickname": "yezi",
+			"studentName": "叶子",
+			"avatar": "../images/yezi.jpg",
+			"classTitle": "1601期Web前端工程师1班【VIP】",
+			"termTitle": "1601期",
+			"averageGrade": "A+",//平均成绩
+			"classRanking": 2,//班级排名
+			"workRate": 100,//作业提交率
+			"attendanceRate": 98,//考勤率
+			"classBeatRate": 99, //考试击败率
+			"isThreeClock ": 0,//是否三天未签退   0：非  1：是
+			"careersGrade": 98,//职业素质
+		},
+		{
+			"nickname": "zhoumo",
+			"studentName": "周沫",
+			"avatar": "../images/zhoumo.jpg",
+			"classTitle": "1601期UI视觉设计师班1班【OT】",
+			"termTitle": "1601期",
+			"averageGrade": "B",//平均成绩
+			"classRanking": 23,//班级排名
+			"workRate": 87,//作业提交率
+			"attendanceRate": 85.5,//考勤率
+			"classBeatRate": 82, //考试击败率
+			"isThreeClock ": 1,//是否三天未签退   0：非  1：是
+			"careersGrade": 93.5,//职业素质
+		},	
+	] 
+}
